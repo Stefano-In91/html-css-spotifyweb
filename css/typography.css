@@ -2,8 +2,16 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    color: #717171;
 }
 
+h1, h2, h3, h4, h5 {
+    color: white;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
 /* Header */
 
 header button {
@@ -11,7 +19,7 @@ header button {
     color: white;
     font-weight: 700;
 }
-h4 {
+header h4 {
     text-transform: uppercase;
 }
 
@@ -20,6 +28,13 @@ h4 {
 nav {
     font-weight: 700;
 }
-nav h4 {
+nav .user span {
     color: white;
+}
+/* Main */
+
+.container-radios label {
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;
 }

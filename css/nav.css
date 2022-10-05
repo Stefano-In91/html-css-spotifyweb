@@ -1,8 +1,5 @@
 /* --- Navbar Layout Desktop --- */
 
-nav {
-    color: #717171;
-}
 .radios img, .user img {
     display: inline-block;
     width: 30px;
@@ -92,9 +89,6 @@ nav hr {
 .user img {
     background-color: #717171;
     border-radius: 50%;
-}
-.user span {
-    color: white;
 }
 /* --- Navbar Layout Mobile --- */
 

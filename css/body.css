@@ -9,8 +9,8 @@ header {
     position: fixed;
     z-index: 50;
     top: 0;
-    left: 230px;
     right: 0;
+    width: calc(100% - 230px);
     height: 90px;
 
     background-color: rgba(0, 0, 0, 0.5);
@@ -20,7 +20,8 @@ header {
     height: calc(100% - 90px);
 }
 
-nav {position: relative;
+nav {
+    position: relative;
     z-index: 98;
     width: 230px;
     max-height: 100%;
@@ -48,13 +49,12 @@ footer {
 
 @media screen and ( max-width: 600px) {
     header {
-        left: 50px;
+        width: calc(100% - 50px);
     }
     nav {
         width: 50px;
     }
     main {
         width: calc(100% - 50px);
-        margin-left: 50px;
     }
 }

@@ -6,17 +6,11 @@
     max-width: 620px;
     margin: auto;
 }
-.container-radios div {
+.container-radios .flex-wrap div {
     margin-bottom: 30px;
 }
 .container-radios input {
     appearance: none;
-}
-.container-radios label {
-    color: #717171;
-    font-weight: bold;
-    font-size: 12px;
-    text-transform: uppercase;
 }
 .container-radios div:not(:last-child) label {
     margin-right: 10px;
@@ -24,3 +18,26 @@
 
 /* Recently Played */
 
+#recent .col {
+    width: calc(100% / 6 - 20px);
+    margin: 20px 10px;
+}
+.img-text {
+    text-align: center;
+}
+.img-text h3 {
+    padding: 20px 0 5px;
+}
+
+/* Recently played RESPONSIVE */
+
+@media screen and ( max-width: 1100px) {
+    #recent .col {
+        width: calc(100% / 4 - 20px);
+    }
+}
+@media screen and ( max-width: 700px) {
+    #recent .col {
+        width: calc(100% / 2 - 20px);
+    }
+}

@@ -10,6 +10,7 @@
 
 img {
     display: block;
+    width: 100%;
 }
 button {
     cursor: pointer;
@@ -35,4 +36,7 @@ button {
 }
 .justify-center {
     justify-content: center;
+}
+.justify-between {
+    justify-content: space-between;
 }
