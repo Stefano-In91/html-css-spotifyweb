@@ -28,34 +28,49 @@
                     <img src="img/logo.svg" alt="logo">
                     <img class="hidden" src="img/logo-small.svg" alt="logo">
                 </div>
-                <div class="radios flex-column">
-                    <div>
-                        <input type="radio" id="home" name="section">
-                        <label for="home"><i class="fa-solid fa-house"></i><span>Home</span></label>
+                <div class="flex-column">
+                    <!-- Radio Buttons -->
+                    <div class="radios">
+                        <div>
+                            <input type="radio" id="home" name="section">
+                            <label for="home"><img src="img/home.svg" alt="home"><span>Home</span></label>
+                        </div>
+                        <div>
+                            <input type="radio" id="cerca" name="section">
+                            <label for="cerca"><img src="img/search.svg" alt="cerca"><span>Cerca</span></label>
+                        </div>
+                        <div>
+                            <input type="radio" id="libreria" name="section">
+                            <label for="libreria"><img src="img/libreria.svg" alt=""><span>La tua libreria</span></label>
+                        </div>
                     </div>
-                    <div>
-                        <input type="radio" id="cerca" name="section">
-                        <label for="cerca"><i class="fa-solid fa-magnifying-glass"></i><span>Cerca</span></label>
+                    <!-- /Radio Buttons -->
+                    <!-- Playlist -->
+                    <div class="playlist pad20">
+                        <h4>Playlist</h4>
+                        <ul>
+                            <li><i class="fa-solid fa-plus"></i><span>Crea Playlist</span></li>
+                            <li><span>Nome Playlist</span></li>
+                            <li><span>Nome Playlist</span></li>
+                            <li><span>Nome Playlist</span></li>
+                            <li><span>Nome Playlist</span></li>
+                            <li><span>Nome Playlist</span></li>
+                            <li><span>Nome Playlist</span></li>
+                            <li><span>Nome Playlist</span></li>
+                            <li><span>Nome Playlist</span></li>
+                        </ul>
                     </div>
-                    <div>
-                        <input type="radio" id="libreria" name="section">
-                        <label for="libreria"><i class="fa-solid fa-book-open"></i><span>La tua libreria</span></label>
+                    <!-- /Playlist -->
+                    <!-- User -->
+                    <div class="pad20">
+                        <a href=""><img class="dload" src="img/download.svg" alt=""><span>Installa app</span></a>
+                        <hr>
+                        <div class="user">
+                            <img src="img/profile.svg" alt="">
+                            <span>John Doe</span>                        
+                        </div>                        
                     </div>
-                </div>
-                <div class="playlist flex-column mar20">
-                    <h4>Playlist</h4>
-                    <ul>
-                        <li><i class="fa-solid fa-plus"></i><span>Crea Playlist</span></li>
-                        <li><span>Nome Playlist</span></li>
-                        <li><span>Nome Playlist</span></li>
-                        <li><span>Nome Playlist</span></li>
-                        <li><span>Nome Playlist</span></li>
-                        <li><span>Nome Playlist</span></li>
-                        <li><span>Nome Playlist</span></li>
-                        <li><span>Nome Playlist</span></li>
-                        <li><span>Nome Playlist</span></li>
-                    </ul>
-
+                    <!-- /User -->
                 </div>
             </nav>
             <!-- /Navbar -->

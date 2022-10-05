@@ -11,15 +11,15 @@
 img {
     display: block;
 }
-
 button {
     cursor: pointer;
 }
-
 .mar20 {
     margin: 20px;
 }
-
+.pad20 {
+    padding: 20px;
+}
 /* --- Flex --- */
 
 .flex {
