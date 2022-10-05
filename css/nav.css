@@ -31,6 +31,16 @@ nav {
 .radios span {
     vertical-align: middle;
 }
+.radios input {
+    appearance: none;
+    vertical-align: middle;
+    border-left: 2px solid black;
+    height: 30px;
+    padding-right: 12px;
+}
+.radios input:checked {
+    border-left: 2px solid limegreen;
+}
 
 /* Playlist */
 
