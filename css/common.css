@@ -11,6 +11,7 @@
 img {
     display: block;
     width: 100%;
+    aspect-ratio: 1;
 }
 button {
     cursor: pointer;
@@ -20,6 +21,15 @@ button {
 }
 .pad20 {
     padding: 20px;
+}
+.mtop20 {
+    margin-top: 20px;
+}
+.mbot20 {
+    margin-bottom: 20px;
+}
+.mbot5 {
+    margin-bottom: 5px;
 }
 /* --- Flex --- */
 
@@ -36,7 +46,4 @@ button {
 }
 .justify-center {
     justify-content: center;
-}
-.justify-between {
-    justify-content: space-between;
 }

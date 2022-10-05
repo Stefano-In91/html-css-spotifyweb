@@ -6,8 +6,8 @@
     max-width: 620px;
     margin: auto;
 }
-.container-radios .flex-wrap div {
-    margin-bottom: 30px;
+.container-radios .flex-wrap > div {
+    margin-bottom: 15px;
 }
 .container-radios input {
     appearance: none;
@@ -15,29 +15,53 @@
 .container-radios div:not(:last-child) label {
     margin-right: 10px;
 }
+.container-radios label {
+    position: relative;
+    padding-bottom: 5px;
+}
+/* pseudoelemento da colorare */
+.container-radios label div {
+    position: absolute;
+    bottom: 0;
+    left: calc( 50% - 15px );
+    width: 30px;
+    height: 2px;
+    transition: background-color 0.5s;
+}
+.container-radios input:checked + label div {
+    background-color: limegreen;
+}
 
 /* Recently Played */
 
-#recent .col {
+.col {
     width: calc(100% / 6 - 20px);
-    margin: 20px 10px;
+    margin: 0 20px 20px 0;
 }
 .img-text {
     text-align: center;
 }
-.img-text h3 {
-    padding: 20px 0 5px;
+.img-text span {
+    font-size: 14px;
+}
+.img-text {
+    margin-top: 10px;
+}
+/* Popular */
+
+#popular .col img {
+    border-radius: 100%;
 }
 
-/* Recently played RESPONSIVE */
+/* Columns RESPONSIVE */
 
 @media screen and ( max-width: 1100px) {
-    #recent .col {
+    .col {
         width: calc(100% / 4 - 20px);
     }
 }
 @media screen and ( max-width: 700px) {
-    #recent .col {
+    .col {
         width: calc(100% / 2 - 20px);
     }
 }
