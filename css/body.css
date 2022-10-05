@@ -1,0 +1,66 @@
+/* --- Body Layout Desktop --- */
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+header {
+    position: fixed;
+    z-index: 50;
+    top: 0;
+    left: 230px;
+    right: 0;
+    height: 90px;
+
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.page-container {
+    height: calc(100% - 90px);
+}
+
+nav {
+    position: fixed;
+    z-index: 98;
+    top: 0;
+    left: 0;
+    bottom: 90px;
+    width: 230px;
+
+    background-color: black;
+}
+
+main {
+    height: 100%;
+    margin-left: 230px;
+    padding-top: 90px;
+    overflow-y: auto;
+
+    background-color: #141922;
+}
+
+footer {
+    position: fixed;
+    z-index: 99;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 90px;
+
+    background-color: #282828;
+}
+
+/* --- Body Layout Mobile */
+
+@media screen and ( max-width: 600px) {
+    header {
+        left: 50px;
+    }
+    nav {
+        width: 50px;
+    }
+    main {
+        margin-left: 50px;
+    }
+}
