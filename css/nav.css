@@ -1,0 +1,47 @@
+/* --- Navbar Layout Desktop --- */
+
+nav {
+    color: #717171;
+}
+
+/* Logo */
+
+.logo img {
+    width: 80%;
+}
+
+.logo .hidden {
+    display: none;
+}
+
+/* Radio buttons */
+
+.radios div {
+    margin-bottom: 10px;
+}
+.radios i {
+    font-size: 1.5rem;
+    vertical-align: middle;
+    margin-right: 6px;
+}
+.radios span {
+    vertical-align: middle;
+}
+
+/* Playlist */
+
+.playlist ul {
+    list-style: none;
+}
+.playlist i {
+    color: black;
+    background-color: #717171;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-right: 4px;
+}
+.playlist li {
+    margin: 10px 0;
+}

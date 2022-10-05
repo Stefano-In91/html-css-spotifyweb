@@ -1,1 +1,11 @@
 /* --- Header --- */
+
+header {
+    text-align: right;
+}
+header button {
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 40px;
+    padding: 16px 42px;
+}

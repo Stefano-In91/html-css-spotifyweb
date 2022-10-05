@@ -8,6 +8,24 @@
 
 /* --- Commons --- */
 
-.pad20 {
-    padding: 20px;
+img {
+    display: block;
+}
+
+button {
+    cursor: pointer;
+}
+
+.mar20 {
+    margin: 20px;
+}
+
+/* --- Flex --- */
+
+.flex {
+    display: flex;
+}
+.flex-column {
+    display: flex;
+    flex-direction: column;
 }

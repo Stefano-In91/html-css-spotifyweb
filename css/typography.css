@@ -3,3 +3,24 @@
 body {
     font-family: 'Montserrat', sans-serif;
 }
+
+/* Header */
+
+header button {
+    text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+}
+
+h4 {
+    text-transform: uppercase;
+}
+
+/* Nav */
+
+nav {
+    font-weight: 700;
+}
+nav h4 {
+    color: white;
+}
