@@ -41,7 +41,12 @@ nav {
 .radios input:checked {
     border-left: 2px solid limegreen;
 }
-
+.radios input:checked + label{
+    color: white;
+}
+.radios input:checked + label img {
+    filter: none;
+}
 /* Playlist */
 
 .playlist ul {
@@ -80,15 +85,17 @@ nav a {
     text-decoration: none;
 }
 nav hr {
-    color: #717171;
-    border: 1px 0px 0px 0px;
+    border-top: 1px solid #717171;
     margin: 10px 0 20px;
+    width: 190px;
 }
 .user img {
     background-color: #717171;
     border-radius: 50%;
 }
-
+.user span {
+    color: white;
+}
 /* --- Navbar Layout Mobile --- */
 
 @media screen and ( max-width: 600px ) {
@@ -109,5 +116,8 @@ nav hr {
     }
     nav .pad20 {
         padding: 10px;
+    }
+    .radios input {
+        padding-right: 3px;
     }
 }

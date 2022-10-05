@@ -1,1 +1,26 @@
 /* --- Main --- */
+
+/* Radio Buttons */
+
+.container-radios {
+    max-width: 620px;
+    margin: auto;
+}
+.container-radios div {
+    margin-bottom: 30px;
+}
+.container-radios input {
+    appearance: none;
+}
+.container-radios label {
+    color: #717171;
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.container-radios div:not(:last-child) label {
+    margin-right: 10px;
+}
+
+/* Recently Played */
+
