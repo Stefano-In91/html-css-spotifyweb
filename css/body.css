@@ -20,12 +20,8 @@ header {
     height: calc(100% - 90px);
 }
 
-nav {
-    position: relative;
+nav {position: relative;
     z-index: 98;
-    top: 0;
-    left: 0;
-    bottom: 90px;
     width: 230px;
     max-height: 100%;
 
@@ -42,11 +38,7 @@ main {
 }
 
 footer {
-    position: relative;
     z-index: 99;
-    bottom: 0;
-    left: 0;
-    right: 0;
     height: 90px;
 
     background-color: #282828;
