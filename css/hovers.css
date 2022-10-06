@@ -1,1 +1,35 @@
 /* --- Hovers --- */
+
+/* Footer Player */
+
+.left-player span {
+    transition: text-decoration .2s;
+    transition: color .2s;
+}
+.left-player span:hover {
+    text-decoration: underline;
+    color: white;
+}
+.left-player i {
+    transition: color .2s;
+}
+.left-player i:hover {
+    color: white;
+}
+
+.middle-player button:hover {
+    scale: 1.25;
+}
+
+.song-atm.barra, .volume-atm.barra {
+    transition: background-color .5s;
+}
+.song-duration:hover .song-atm, .volume-max:hover .volume-atm {
+    background-color: limegreen;
+}
+.barra-circle {
+    transition: opacity .2s;
+}
+.song-duration:hover .barra-circle, .volume-max:hover .barra-circle {
+    opacity: 1;
+}
