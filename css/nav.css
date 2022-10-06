@@ -41,10 +41,7 @@ div.flex-column {
     border-left: 2px solid black;
     height: 30px;
     padding-right: 12px;
-    transition: 0.5s;
-}
-.radios label {
-    transition: 0.5s;
+    transition: border-left 0.5s;
 }
 .radios input:checked {
     border-left: 2px solid limegreen;

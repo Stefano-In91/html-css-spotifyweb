@@ -1,5 +1,39 @@
 /* --- Hovers --- */
 
+
+label {
+    transition: color 0.5s;
+}
+label:hover {
+    color: white;
+}
+label img {
+    transition: filter 0.5s;
+}
+label:hover img{
+    filter: none;
+}
+
+a {
+    transition: color .5s;
+}
+a:hover {
+    color: white;
+}
+a i {
+    transition: background-color .5s;
+}
+a:hover i {
+    background-color: white;
+}
+
+.middle-player button, header button {
+    transition: scale .2s;
+}
+.middle-player button:hover, header button:hover {
+    scale: 1.25;
+}
+
 /* Footer Player */
 
 .left-player span {
@@ -15,10 +49,6 @@
 }
 .left-player i:hover {
     color: white;
-}
-
-.middle-player button:hover {
-    scale: 1.25;
 }
 
 .song-atm.barra, .volume-atm.barra {
