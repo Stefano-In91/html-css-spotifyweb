@@ -22,7 +22,7 @@ header {
 
 nav {
     position: relative;
-    z-index: 98;
+    z-index: 90;
     width: 230px;
     max-height: 100%;
 
@@ -39,6 +39,7 @@ main {
 }
 
 footer {
+    position: relative;
     z-index: 99;
     height: 90px;
 

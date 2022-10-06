@@ -7,6 +7,10 @@
     vertical-align: middle;
     margin-right: 8px;
 }
+div.flex-column {
+    height: calc(100% - 90px);
+    overflow-y: hidden;
+}
 
 /* Logo */
 
@@ -53,6 +57,12 @@
 }
 /* Playlist */
 
+div.playlist {
+    height: 100%;
+}
+.playlist > div {
+    overflow-y: auto;
+}
 .playlist ul {
     list-style: none;
 }
@@ -72,9 +82,7 @@
 /* User */
 
 nav div.flex-column > div:last-child {
-    position: absolute;
-    z-index: 10;
-    bottom: 0;
+    margin-top: auto;
     background-color: black;
 }
 img.dload {

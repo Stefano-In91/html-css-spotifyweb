@@ -48,17 +48,19 @@
                     <!-- Playlist -->
                     <div class="playlist pad20">
                         <h4>Playlist</h4>
-                        <ul>
-                            <li><a href=""><i class="fa-solid fa-plus"></i><span>Crea Playlist</span></a></li>
-                            <li><a href=""><span>Nome Playlist</span></li></a>
-                            <li><a href=""><span>Nome Playlist</span></li></a>
-                            <li><a href=""><span>Nome Playlist</span></li></a>
-                            <li><a href=""><span>Nome Playlist</span></li></a>
-                            <li><a href=""><span>Nome Playlist</span></li></a>
-                            <li><a href=""><span>Nome Playlist</span></li></a>
-                            <li><a href=""><span>Nome Playlist</span></li></a>
-                            <li><a href=""><span>Nome Playlist</span></li></a>
-                        </ul>
+                        <div class="flex-column">
+                            <ul>
+                                <li><a href=""><i class="fa-solid fa-plus"></i><span>Crea Playlist</span></a></li>
+                                <li><a href=""><span>Nome Playlist</span></li></a>
+                                <li><a href=""><span>Nome Playlist</span></li></a>
+                                <li><a href=""><span>Nome Playlist</span></li></a>
+                                <li><a href=""><span>Nome Playlist</span></li></a>
+                                <li><a href=""><span>Nome Playlist</span></li></a>
+                                <li><a href=""><span>Nome Playlist</span></li></a>
+                                <li><a href=""><span>Nome Playlist</span></li></a>
+                                <li><a href=""><span>Nome Playlist</span></li></a>
+                            </ul>
+                        </div>
                     </div>
                     <!-- /Playlist -->
                     <!-- User -->
@@ -76,6 +78,7 @@
             <!-- /Navbar -->
             <!-- Main -->
             <main>
+                <!-- Radio Navigators -->
                 <div class="container-radios pad20">
                     <div class="flex-wrap justify-center">
                         <div>
@@ -122,6 +125,8 @@
                         </div>
                     </div>
                 </div>
+                <!-- /Radio Navigators -->
+                <!-- Recent -->
                 <section id="recent" class="pad20">
                     <h2 class="mbot20">Recently Played</h2>
                     <div class="flex-wrap">
@@ -169,6 +174,8 @@
                         </div>
                     </div>
                 </section>
+                <!-- /Recent -->
+                <!-- For John -->
                 <section id="for-john" class="pad20">
                     <h2 class="mbot5">Creato Per John Doe</h2>
                     <span>Più ascolti, PIù MEGLIO saranno i suggerimenti</span>
@@ -187,6 +194,8 @@
                         </div>
                     </div>
                 </section>
+                <!-- /For John -->
+                <!-- Popular -->
                 <section id="popular" class="pad20">
                     <h2 class="mbot5">Artisti più popolari</h2>
                     <span>Più ascolti, PIù MEGLIO saranno i suggerimenti</span>
@@ -205,12 +214,56 @@
                         </div>
                     </div>
                 </section>
+                <!-- /Popular -->
             </main>
             <!-- /Main -->
         </div>
         <!-- Footer Player -->
         <footer>
-
+            <div class="flex">
+                <!-- Left Player -->
+                <div class="left-player flex justify-between">                    
+                    <img src="img/player_left.jpg" alt="">
+                    <div>
+                        <h4><a href="">Hilltop Hoods</a></h4>
+                        <span><a href="">Brano</a></span>
+                        <span><a href="">Nome</a></span>
+                    </div>
+                    <div class="flex left-buttons">
+                        <button><i class="fa-regular fa-heart"></i></button>
+                        <button><i class="fa-regular fa-folder"></i></button>
+                    </div>                    
+                </div>
+                <!-- /Left Player -->
+                <!-- Middle Player -->
+                <div class="middle-player flex-wrap justify-center">
+                    <div class="player-buttons flex justify-center">
+                        <button><i class="fa-solid fa-shuffle"></i></button>
+                        <button><i class="fa-solid fa-backward-step"></i></button>
+                        <button><i class="fa-regular fa-circle-play"></i></button>
+                        <button><i class="fa-solid fa-forward-step"></i></button>
+                        <button><i class="fa-solid fa-arrow-rotate-right"></i></button>
+                    </div>
+                    <div class="flex justify-center">
+                        <span>0.25</span>
+                        <div class="song-duration barra">
+                            <div class="song-atm barra"></div>
+                        </div>
+                        <span>4:35</span>
+                    </div>
+                </div>
+                <!-- /Middle Player -->
+                <!-- Right Player -->
+                <div class="right-player flex justify-between">
+                    <button><i class="fa-solid fa-list"></i></button>
+                    <button><i class="fa-solid fa-display"></i></button>
+                    <button><i class="fa-solid fa-volume-high"></i></button>
+                    <div class="volume-max barra">
+                        <div class="volume-atm barra"></div>
+                    </div>
+                </div>
+                <!-- /Right Player -->
+            </div>
         </footer>
         <!-- /Footer Player -->
     </body>

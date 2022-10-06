@@ -1,1 +1,111 @@
 /* --- Footer --- */
+
+footer {
+    padding: 0 20px;
+}
+footer div.flex {
+    height: 100%;
+    align-items: center;
+}
+div.middle-player, div.right-player{
+    flex-grow: 1;
+}
+div.left-player, div.right-player {
+    max-width: calc(230px - 20px);
+    min-width: 110px;
+}
+div.middle-player {
+    max-width: calc(100% - 420px);
+}
+footer button {
+    background-color: inherit;
+    color: white;
+    border: none;
+    padding: 0;
+}
+footer h4 {
+    font-size: 12px;
+}
+footer span {
+    font-size: 10px;
+}
+
+/* Left Player */
+
+.left-player > * {
+    width: calc(100% / 3 -10px);
+}
+.left-player img {
+    max-width: 30%;
+    display: inline-block;
+}
+.left-player i, .right-player i {
+    font-size: 16px;
+    margin-right: 8px;
+}
+
+/* Middle Player */
+
+.player-buttons {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.player-buttons button:not(:last-child) {
+    margin-right: 14px;
+}
+.player-buttons i {
+    font-size: 20px;
+}
+.player-buttons .fa-circle-play {
+    font-size: 30px;
+}
+
+/* Barre */
+
+div.middle-player > div:last-child {
+    width: 80%;
+}
+
+.song-duration {
+    position: relative;
+    width: 70%;
+    margin: 0 8px;
+}
+.volume-max {
+    position: relative;
+    width: 100%;
+}
+.song-atm.barra, .volume-atm.barra {
+    position: absolute;
+    transition: background-color .5s;
+    background-color: white;
+}
+.song-atm {
+    width: 25%;
+}
+.volume-atm {
+    width: 40%;
+}
+.song-duration:hover .song-atm, .volume-max:hover .volume-atm {
+    background-color: limegreen;
+}
+.barra {
+    height: 4px;
+    border-radius: 4px;
+    background-color: #717171;
+}
+
+/* --- Footer Layout Tablet --- */
+
+@media screen and ( max-width : 700px ) {
+    div.left-player, div.right-player{
+        max-width: 30%;
+    }
+    div.middle-player {
+        max-width: 40%;
+    }
+    .left-buttons {
+        flex-direction: column;
+        justify-content: center;
+    }
+}
