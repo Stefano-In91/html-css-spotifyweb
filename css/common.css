@@ -11,10 +11,12 @@
 img {
     display: block;
     width: 100%;
-    aspect-ratio: 1;
 }
-button {
+button, label {
     cursor: pointer;
+}
+.hidden {
+    display: none;
 }
 .mar20 {
     margin: 20px;

@@ -7,13 +7,16 @@
     vertical-align: middle;
     margin-right: 8px;
 }
+
 /* Logo */
 
+.logo {
+    height: 90px;
+}
 .logo img {
     width: 80%;
 }
-.logo .hidden {
-    display: none;
+.logo img.hidden {
     width: 30px;
 }
 
@@ -100,7 +103,7 @@ nav hr {
     .logo img:first-child, nav span, .playlist, nav hr {
         display: none;
     }
-    .logo .hidden {
+    .logo img.hidden {
         display: block;
     }
     .radios img, .user img {

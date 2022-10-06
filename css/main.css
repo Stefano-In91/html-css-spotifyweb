@@ -1,5 +1,9 @@
 /* --- Main --- */
 
+main img {
+    aspect-ratio: 1;
+}
+
 /* Radio Buttons */
 
 .container-radios {
