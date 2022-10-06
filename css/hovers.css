@@ -34,6 +34,21 @@ a:hover i {
     scale: 1.25;
 }
 
+/* Image Hover */
+
+.img-container img {
+    transition: opacity .5s;
+}
+.img-container button {
+    transition: opacity .5s;
+}
+.img-container:hover img{
+    opacity: .5;
+}
+.img-container:hover button {
+    opacity: 1;
+}
+
 /* Footer Player */
 
 .left-player span {
