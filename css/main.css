@@ -6,25 +6,28 @@ main img {
 
 /* Radio Buttons */
 
-.container-radios {
+#nav-radios {
     max-width: 620px;
     margin: auto;
 }
-.container-radios .flex-wrap > div {
+#nav-radios  ul {
+    list-style: none;
+}
+#nav-radios  ul > li {
     margin-bottom: 15px;
 }
-.container-radios input {
+#nav-radios  input {
     appearance: none;
 }
-.container-radios div:not(:last-child) label {
+#nav-radios  li:not(:last-child) {
     margin-right: 10px;
 }
-.container-radios label {
+#nav-radios  label {
     position: relative;
     padding-bottom: 5px;
 }
 /* pseudoelemento da colorare */
-.container-radios label div {
+#nav-radios  label div {
     position: absolute;
     bottom: 0;
     left: calc( 50% - 15px );
@@ -32,7 +35,7 @@ main img {
     height: 2px;
     transition: background-color 0.5s;
 }
-.container-radios input:checked + label div {
+#nav-radios  input:checked + label div {
     background-color: limegreen;
 }
 
