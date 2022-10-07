@@ -56,12 +56,10 @@ input:checked + label{
 
 div.playlist {
     height: 100%;
+    overflow-y: hidden;
 }
-.playlist > div {
-    overflow-y: auto;
-}
-.playlist ul {
-    list-style: none;
+.playlist h4 {
+    padding-bottom: 10px;
 }
 .playlist i {
     color: black;
@@ -71,6 +69,11 @@ div.playlist {
     line-height: 30px;
     text-align: center;
     margin-right: 4px;
+}
+.playlist ul {
+    list-style: none;
+    overflow-y: auto;
+    height: 100%;
 }
 .playlist li {
     margin: 10px 0;
