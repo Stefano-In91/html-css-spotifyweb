@@ -46,7 +46,7 @@ div.flex-column {
 .radios input:checked {
     border-left: 2px solid limegreen;
 }
-.radios input:checked + label{
+input:checked + label{
     color: white;
 }
 .radios input:checked + label img {
